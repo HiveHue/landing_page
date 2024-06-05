@@ -37,10 +37,10 @@ const Navbar = () => {
       </NavLink>
       <div ref={menuRef}>
         <nav className={`transition-all duration-300 ease-in-out ${isOpen ? "flex" : "hidden"} flex-col absolute md:relative top-full left-0 w-full md:w-auto md:bg-transparent bg-white/95 shadow-md md:shadow-none z-10 py-2 md:flex md:flex-row md:items-center`}>
-          <NavLink to='/site/AI' onClick={toggleMenu} className={({ isActive }) => isActive ? "text-black bg-gray-00 px-2 py-1 rounded-full" : "text-blue-600 px-2 py-1 rounded-full hover:bg-blue-200" }> 
+          <NavLink to='/AI' onClick={toggleMenu} className={({ isActive }) => isActive ? "text-black bg-gray-00 px-2 py-1 rounded-full" : "text-blue-600 px-2 py-1 rounded-full hover:bg-blue-200" }> 
             Hive AI
           </NavLink>
-          <NavLink to='/site/about' onClick={toggleMenu} className={({ isActive }) => isActive ? "text-black bg-gray-100 px-2 py-1 rounded-full" : "text-blue-600 px-2 py-1 rounded-full hover:bg-blue-200" }>
+          <NavLink to='/about' onClick={toggleMenu} className={({ isActive }) => isActive ? "text-black bg-gray-100 px-2 py-1 rounded-full" : "text-blue-600 px-2 py-1 rounded-full hover:bg-blue-200" }>
             Roadmap
           </NavLink>
           {/* <NavLink to='/3D_landingpage/projects' onClick={toggleMenu} className={({ isActive }) => isActive ? "text-black bg-gray-100 px-2 py-1 rounded-full" : "text-blue-600 px-2 py-1 rounded-full hover:bg-blue-200" }>

@@ -15,10 +15,10 @@ const App = () => {
             element={
               <>
                 <Routes>
-                <Route path='/site/AI' element={<HiveAI />} />
-                  <Route path='/site/about' element={<About />} />
-                  <Route path='/site/projects' element={<Projects />} />
-                  <Route path='/site/contact' element={<Contact />} />
+                <Route path='/AI' element={<HiveAI />} />
+                  <Route path='/about' element={<About />} />
+                  <Route path='/projects' element={<Projects />} />
+                  <Route path='/contact' element={<Contact />} />
                 </Routes>
                 <Footer />
               </>
