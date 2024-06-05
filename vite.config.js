@@ -1,9 +1,9 @@
-import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/3D_landingpage",
+  base: "/",
   plugins: [react()],
   assetsInclude: ['**/*.glb'],
 })
