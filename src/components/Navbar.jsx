@@ -32,7 +32,7 @@ const Navbar = () => {
   
   return (
     <header className='header flex justify-between items-center p-4 relative'>
-      <NavLink to='/site' className='shrink-0'>
+      <NavLink to='/' className='shrink-0'>
         <img src={logo} alt='logo' className='w-20 h-auto min-w-[64px] min-h-[64px]' />
       </NavLink>
       <div ref={menuRef}>

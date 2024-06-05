@@ -9,7 +9,7 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/site' element={<Home key={Date.now()}/>} />
+          <Route path='/' element={<Home key={Date.now()}/>} />
           <Route
             path='/*'
             element={
